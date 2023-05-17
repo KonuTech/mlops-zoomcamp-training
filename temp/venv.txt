@@ -3,3 +3,6 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 .\.venv\Scripts\activate
 Linux: source .\.venv\Scripts\activate
 pip list
+
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+http://127.0.0.1:5000
