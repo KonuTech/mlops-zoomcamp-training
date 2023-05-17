@@ -1,2 +1,8 @@
 /.venv/
 /notebooks/.ipynb_checkpoints/
+/.idea/misc.xml
+/.idea/mlops-zoomcamp-training.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/inspectionProfiles/
+/.idea/
