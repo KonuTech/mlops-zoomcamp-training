@@ -5,4 +5,12 @@ Linux: source .\.venv\Scripts\activate
 pip list
 
 mlflow ui --backend-store-uri sqlite:///mlflow.db
+mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts_local
 http://127.0.0.1:5000
+
+
+HM 2
+python ./homework/preprocess_data.py --raw_data_path inputs --dest_path outputs
+python ./homework/train.py --data_path outputs
+python ./homework/hpo.py
+python ./homework/register_model.py
