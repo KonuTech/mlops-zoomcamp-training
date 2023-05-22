@@ -6,4 +6,4 @@
 /.idea/vcs.xml
 /.idea/inspectionProfiles/
 /.idea/
-/mlruns/2/5ef0250e9fef4866ad7e53fbcce081b3/artifacts/model/model.pkl
+model.pkl

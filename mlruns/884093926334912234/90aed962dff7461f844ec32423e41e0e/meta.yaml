@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KonuTech/PycharmProjects/mlops-zoomcamp-training/mlruns/884093926334912234/90aed962dff7461f844ec32423e41e0e/artifacts
+end_time: 1684415702263
+entry_point_name: ''
+experiment_id: '884093926334912234'
+lifecycle_stage: active
+run_id: 90aed962dff7461f844ec32423e41e0e
+run_name: kindly-robin-580
+run_uuid: 90aed962dff7461f844ec32423e41e0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684415699258
+status: 3
+tags: []
+user_id: KonuTech
