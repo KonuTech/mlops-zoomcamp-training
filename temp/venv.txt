@@ -14,3 +14,12 @@ python ./homework/preprocess_data.py --raw_data_path inputs --dest_path outputs
 python ./homework/train.py --data_path outputs
 python ./homework/hpo.py
 python ./homework/register_model.py
+
+prefect server start
+prefect project init
+
+# command has to be inline with deployment.yaml and a name of 'last' function in orchestrate.py
+prefect deploy 3.4/orchestrate.py:test_flow -n taxi_local_data -p zoompool
+
+prefect worker start -p zoompool
+prefect worker start --pool zoompool --work-queue default
